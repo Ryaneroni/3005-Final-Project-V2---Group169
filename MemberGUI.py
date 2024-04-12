@@ -679,7 +679,6 @@ def MemberPortal(e):
                         SQL.UpdateSomething("Payment SET AmountOwed = AmountOwed + 100 Where MemberID = {};".format(userID))
                         messagebox.showinfo("Success!", "Successfully Scheduled")
                         returnButton()
-                        messagebox.showinfo("Success!", "Successfully ")
                     button9 = tk.Button(frame, text="Select Trainer", command=selectTrainer, height=1, width=20, font=('Helvetica', '12'), bg='#9389E5')
                     button9.pack(side=tk.LEFT, padx=5)
 
