@@ -6,13 +6,17 @@ Steven Wu - 101219383
 
 https://youtu.be/7nverSZSl1Y
 
+If you are looking for the SQL statements in our code, search through one of the GUI files with cntrl f searching for SQL.
+
+All SQL functions will call SQL. in order to contact the database. 
+
 9 Files -> AdminGUI, InitalizeGUI, main.py, MemberBackend.py, MemberGUI, SQL.py, TrainerBackend.py, TrainerGUI.py, Utility.py
 
 **Installs:**
 
 pip install psycopg2
 
-Tkinter is installed alongside Python in the majority of releases. If it is not present, re-install python to the latest version
+Tkinter is installed alongside Python in the majority of releases. If it is not present, re-install python to the latest version. If that doesn't work (pip install tk) *may* work
 
 **Operation:**
 
@@ -20,11 +24,13 @@ Ensure databased has been created and populated before operation (Check SQL fold
 
 Install pyscopg2 using the pip command above (In the folder with the file, do pip install pyscopgy2). Tkinter SHOULD already be installed with modern python packages
 
-If any info differs in your postgres database you must change it in the Variables in the SQL script
+If any info differs in your postgres database you must change it in the variables in the top of the SQL script
 
 (Current Database Setup [Change to match your setup]): host = localhost, dbname (database name) = FinalProject, user = postgres, password = postgres
 
-Navigate to the folder where you placed my file, and run using Python. e.g (In folder with the file [in cmd]) -> python main.py
+Navigate to the folder where you placed my file, and run using Python. e.g (In folder with the file [in cmd]) -> python main.py.
+
+Click the user type you'd like to login as. Steven Wu is an already populated member, Alice Smith is an already populated Trainer, ADMIN gets you to the admin console, or create your own using member registration :D
 
 **A GUI will pop up. You can enter the first and last name of any trainer or member to login. to access admin type ADMIN. ***
 
