@@ -1,5 +1,5 @@
---Ryan Mastin - 101229946
---Steven Wu - 101219383
+--Ryan Mastin - 101229946.
+--Steven Wu - 101219383.
 
 CREATE TABLE IF NOT EXISTS Members (
     MemberID SERIAL Primary Key,
