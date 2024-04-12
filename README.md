@@ -10,7 +10,7 @@ If you are looking for the SQL statements in our code, search through one of the
 
 All SQL functions will call SQL. in order to contact the database. 
 
-9 Files -> AdminGUI, InitalizeGUI, main.py, MemberBackend.py, MemberGUI, SQL.py, TrainerBackend.py, TrainerGUI.py, Utility.py
+**9 Files -> AdminGUI, InitalizeGUI, main.py, MemberBackend.py, MemberGUI, SQL.py, TrainerBackend.py, TrainerGUI.py, Utility.py**
 
 **Installs:**
 
@@ -32,7 +32,6 @@ Navigate to the folder where you placed my file, and run using Python. e.g (In f
 
 Click the user type you'd like to login as. Steven Wu is an already populated member, Alice Smith is an already populated Trainer, ADMIN gets you to the admin console, or create your own using member registration :D
 
-**A GUI will pop up. You can enter the first and last name of any trainer or member to login. to access admin type ADMIN. ***
 
 **File Directory**
 1. main.py - how u run the program. Calls Initialize GUI and Member/Trainer/Admin GUI
