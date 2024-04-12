@@ -4,7 +4,7 @@ Steven Wu - 101219383
 
 3005 Final Project v2 - Group 169
 
-{YOUTUBE LINK HERE}
+https://youtu.be/7nverSZSl1Y
 
 9 Files -> AdminGUI, InitalizeGUI, main.py, MemberBackend.py, MemberGUI, SQL.py, TrainerBackend.py, TrainerGUI.py, Utility.py
 
