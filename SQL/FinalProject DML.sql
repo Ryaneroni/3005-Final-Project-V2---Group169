@@ -1,6 +1,7 @@
 --Ryan Mastin - 101229946
 --Steven Wu - 101219383
 --Inserts
+--
 INSERT INTO Members (FirstName, LastName, Address, City, PhoneNumber, Email) VALUES 
 ('Jane', 'Doe', '123 Tree Court', 'Springfield', '111-555-6789', 'jdoe@hotmail.com'),
 ('Ryan', 'Mastin', '323 Mallard Avenue', 'Burlington', '905-555-6789', 'rmastin@gmail.com'),
